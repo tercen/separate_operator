@@ -1,27 +1,28 @@
 # mean operator
 
 ##### Description
-`mean` operator computes the mean of a set of data points.
+`Separate` a character column into multiple columns with a regular expression or numeric locations.
 
 ##### Usage
 
 Input projection|.
 ---|---
-`y-axis`        | is the input data for the mean, per cell 
+`row`        | single character column
 
 Output relations|.
 ---|---
-`mean`          | numeric, mean of the input values
+`col1`          | numeric or character
+`col2`          | numeric or character
+`etc..`          | multiple columns
 
 ##### Details
-The operator takes all the values of a cell and calculates their mean. The computation is done per cell. There is one value calculated and returned for each of the input cell.
+Given a regular expression , `Separate` turns a single character column into multiple columns.
 
 #### References
 
 
 ##### See Also
 
-[product_operator](https://github.com/tercen/product_operator), [sum_operator](https://github.com/tercen/sum_operator)
-
+ 
 
 #### Examples

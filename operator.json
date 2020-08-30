@@ -1,10 +1,24 @@
 {
-  "name": "Mean",
-  "description": "Compute the mean per cell",
-  "tags": ["basic statistics"],
+  "name": "Separate",
+  "description": "Separate a character column into multiple columns with a regular expression or numeric locations",
+  "tags": ["data wrangling"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/mean_operator"],
-  "properties": []
+  "urls": ["https://github.com/tercen/replace_operator"],
+  "properties": [
+    {
+    "kind": "StringProperty",
+    "name": "into",
+    "defaultValue": "col1,col2",
+    "description": "Comma separated names of new variables."
+    },
+    {
+    "kind": "StringProperty",
+    "name": "sep",
+    "defaultValue": "[_]",
+    "description": "Separator between columns."
+    }    
+    
+  ]
 }
 
 
