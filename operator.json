@@ -1,6 +1,6 @@
 {
   "name": "Separate",
-  "description": "Separate a character column into multiple columns with a regular expression or numeric locations",
+  "description": "Separates a character column (text) into multiple columns using a regular expression or numeric locations.",
   "tags": ["data wrangling"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/separate_operator"],
