@@ -1,0 +1,25 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "Separate",
+  "namespace": "ds0",
+  "propertyValues": [
+    {
+    "kind": "PropertyValue",
+    "name": "into",
+    "value": "col1,col2"
+    },
+    {
+    "kind": "PropertyValue",
+    "name": "sep",
+    "value": "0"
+    }
+  ], 
+  "inputDataUri": "c03_simple_exp.tsv",
+  "outputDataUri": ["table1.csv","table2.csv"],
+  "columns": [],
+  "rows": ["Variable"],
+  "colors": [],
+  "labels": [],
+  "yAxis": "",
+  "xAxis": ""
+}
