@@ -1,20 +1,28 @@
 {
-  "outputSpecs": [{
-    "kind": "OperatorJoinSpec",
-    "description": "Output columns are dynamically created based on 'into' property",
-    "joinOperators": [{
-      "kind": "JoinOperator",
-      "joinType": "left",
-      "leftPair": {
-        "kind": "ColumnPair",
-        "lColumns": ["Row"],
-        "rColumns": ["Row"]
-      },
-      "rightRelation": {
-        "kind": "TableRelation",
-        "description": "Columns dynamically named based on 'into' property (e.g., col1, col2)",
-        "attributes": []
-      }
-    }]
-  }]
+  "outputSpecsV2": [
+    {
+      "kind": "OperatorJoinSpec",
+      "description": "Output columns are dynamically created based on 'into' property",
+      "joinOperators": [
+        {
+          "kind": "JoinOperator",
+          "joinType": "left",
+          "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+              "Row"
+            ],
+            "rColumns": [
+              "Row"
+            ]
+          },
+          "rightRelation": {
+            "kind": "TableRelation",
+            "description": "Columns dynamically named based on 'into' property (e.g., col1, col2)",
+            "attributes": []
+          }
+        }
+      ]
+    }
+  ]
 }
